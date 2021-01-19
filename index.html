@@ -1,0 +1,477 @@
+<html lang="fr">
+<head>   
+    <title>Vétérinaire Alain Balestreri</title>
+    <link rel="shortcut icon" href="gfx/croix_veto2.png" type="image/png" />
+    <link rel="icon" href="gfx/croix_veto2.png" type="image/png" />
+
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="styles/slider.css" type="text/css" media="screen" /> <!--slider-->
+    <link rel="stylesheet" href="styles/style.css" type="text/css" media="screen" />
+ 
+    <script type="text/javascript" src="javascripts/script.js"></script>
+    <script type="text/javascript" src="javascripts/javascript.js"></script> <!-- generale --> 
+    
+    <script language="javascript" src="javascripts/jquery_v2.0.3.js"></script>  <!-- jquery --> 
+    
+    <script>
+$(document).ready(function() {
+		  	  
+	$('#lesEspeces > div[name="nac"]').mouseover(function() {
+              var def = document.getElementById('definitionNac');
+              if(def.style.opacity==0)
+              {
+              def.style.opacity=100;
+              }
+              });
+              
+  $('#lesEspeces > div[name="nac"]').mouseout(function() {
+              var def = document.getElementById('definitionNac');
+              if(def.style.opacity!=0)
+              {
+              def.style.opacity=0;
+              }
+              });
+});
+</script>
+</head>
+<body>
+<a name="ancre"></a>
+<div id="art-page-background-simple-gradient">
+        <div id="art-page-background-gradient"></div>
+    </div>
+    <div id="art-main">
+        <div class="art-sheet">
+            <div class="art-sheet-tl"></div>
+            <div class="art-sheet-tr"></div>
+            <div class="art-sheet-bl"></div>
+            <div class="art-sheet-br"></div>
+            <div class="art-sheet-tc"></div>
+            <div class="art-sheet-bc"></div>
+            <div class="art-sheet-cl"></div>
+            <div class="art-sheet-cr"></div>
+            <div class="art-sheet-cc"></div>
+            <div class="art-sheet-body">
+                <div class="art-header" onMouseOver="ClignotementC()" onMouseOut="FinClignotementC()">
+                    <div class="art-header-jpeg"></div>
+                    <div class="art-croix"><img src="gfx/croix_veto.png" id="image-croix" alt="" /></div>
+                    <div class="art-logo"> 
+                        <h1 id="name-text" class="art-logo-name">Cabinet Vétérinaire</h1>
+                        <div id="slogan-text" class="art-logo-text">du Dr Alain Balestreri</div>
+                    </div>
+                </div>
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-content">
+                                                <!-- entete -->
+                                               <div id="entete"> 
+                                                <div id="wrapper-especes">
+                                                  <div id="titreEspece"><h3>Espèces soignées</h3></div>
+                                                  <p id="definitionNac">NAC : Nouveaux Animaux de Compagnie</p>
+                                                  <div id="lesEspeces">
+                                                    <div class="espece" name=""><div class="iconBulleValider"></div>Chien</div>
+                                                    <div class="espece" name=""><div class="iconBulleValider"></div>Chat</div>
+                                                    <div class="espece" name="nac"><div class="iconBulleValider"></div>Lapin</div>
+                                                    <div class="espece" name="nac"><div class="iconBulleValider"></div>Cobaye</div>
+                                                    <div class="espece" name="nac"><div class="iconBulleValider"></div>Furet</div>
+                                                    <div class="espece" name="nac"><div class="iconBulleValider"></div>Rat</div>
+                                                    <div class="espece" name="nac"><div class="iconBulleValider"></div>Oiseaux</div>
+                                                    <div class="espece" name="nac"><div class="iconBulleValider"></div>Reptiles</div>
+                                                    <div class="espece" name=""><div class="iconBulleValider"></div>Autres</div>
+                                                  </div>
+                                                  <div class="cleared"></div>
+                                                </div>
+                                                <div class="cleared"></div>
+                                                <div id="wrapper-prestations">  
+                                                  <h3>Domaines d'activité</h3>
+                                                  <div id="lesPrestations">   
+                                                    <div class="prestation">Médecine et chirurgie</div>
+                                                    <div class="prestation">Radiologie</div>
+                                                    <div class="prestation">Echographie</div>
+                                                    <div class="prestation">Analyses</div>
+                                                    <div class="prestation">Hospitalisation</div>
+                                                    <div class="prestation">Diététique</div>
+                                                    <div class="prestation">Comportement</div>
+                                                  </div>
+                                                  <div class="cleared"></div>
+                                                </div>
+                                                <div class="cleared"></div>
+                                               </div>
+                            <div id="wrapper-decors">
+                              <div id="decor">
+                              <img src="gfx/noel2.gif">
+                              </div>
+                              <div class="cleared"></div>
+                            </div>
+                            <div class="art-post">
+                                <div class="art-post-tl"></div>
+                                <div class="art-post-tr"></div>
+                                <div class="art-post-bl"></div>
+                                <div class="art-post-br"></div>
+                                <div class="art-post-tc"></div>
+                                <div class="art-post-bc"></div>
+                                <div class="art-post-cl"></div>
+                                <div class="art-post-cr"></div>
+                                <div class="art-post-cc"></div>
+                                <div class="art-post-body">
+                            <div class="art-post-inner art-article">
+                                            <h2 class="art-postheader">
+                                                <img src="gfx/postheadericon.png" width="26" height="26" alt="postheadericon" />
+                                                Bienvenue
+                                            </h2>
+                                            <div class="art-postcontent">
+                                                <!-- article-content -->
+                                                <p>Le cabinet du Dr Alain Balestreri vous souhaite la bienvenue sur son site.<br>
+                                                Celui-ci est conçu pour vous communiquez des informations utiles concernant le cabinet<br>
+                                                et son activité.</p>
+                                                <div class="evenement">
+                                                <p><!--Saisisez ci-dessous le message d'information-->
+                                                Fermeture exceptionnelle<br>
+                                                du 20/06/2013 au 05/07/2013 inclu
+                                                <!--Fin du message d'information--></p> 
+                                                </div>
+                                                <p class="auteur">Auteur: Dr Alain Balestreri</p>
+                                            </div>
+                                            <div class="cleared"></div>
+                            </div>
+                            
+                            		<div class="cleared"></div>
+                                </div>
+                            </div>
+                            <div class="art-post">
+                                <div class="art-post-tl"></div>
+                                <div class="art-post-tr"></div>
+                                <div class="art-post-bl"></div>
+                                <div class="art-post-br"></div>
+                                <div class="art-post-tc"></div>
+                                <div class="art-post-bc"></div>
+                                <div class="art-post-cl"></div>
+                                <div class="art-post-cr"></div>
+                                <div class="art-post-cc"></div>
+                                <div class="art-post-body">
+                            <div class="art-post-inner art-article">
+                                            <h2>
+                                                Centre de soin pour la faune sauvage
+                                            </h2>
+                                            <div class="art-postcontent">
+                                                <!-- article-content -->
+                                                <br>
+                                                Depuis peu, il existe un centre de soin pour la faune sauvage en région Centre Alsace.<br>
+                                                Si vous trouvez un animal sauvage en difficulté, contactez "Sentinelle Nature Alsace" au<br>
+                                                06 XX XX XX XX.<br>
+                                                Sur leur site http://www.sentinelle-nature-alsace.fr/, vous trouverez des conseils pour savoir comment réagir.      
+                                                <p class="auteur">Auteur: Dr Alain Balestreri</p>
+                                                <!-- /article-content -->
+                                            </div>
+                                            <div class="cleared"></div>
+                            </div>
+                            		<div class="cleared"></div>
+                                </div>
+                            </div>
+                            <div class="art-post">
+                                <div class="art-post-tl"></div>
+                                <div class="art-post-tr"></div>
+                                <div class="art-post-bl"></div>
+                                <div class="art-post-br"></div>
+                                <div class="art-post-tc"></div>
+                                <div class="art-post-bc"></div>
+                                <div class="art-post-cl"></div>
+                                <div class="art-post-cr"></div>
+                                <div class="art-post-cc"></div>
+                                <div class="art-post-body">
+                            <div class="art-post-inner art-article">
+                                            <h2>
+                                                Identification des chats
+                                            </h2>
+                                            <div class="art-postcontent">
+                                                <!-- article-content -->
+                                                <br>
+                                                Le législateur a rendu obligatoire l'identification des chats nés après le 1 janvier 2012.<br>
+                                                Pour les chats restant sur le territoire Français, vous avez le choix entre le transpondeur ("puce")
+                                                électronique ou le tatouage.<br>
+                                                Pour les chats qui passent les frontières, la puce est <u>obligatoire</u>.
+                                                <p class="auteur">Auteur: Dr Alain Balestreri</p>
+                                                <!-- /article-content -->
+                                            </div>
+                                            <div class="cleared"></div>
+                            </div>
+                            
+                            		<div class="cleared"></div>
+                                </div>
+                            </div>
+                            <div class="art-post">
+                                <div class="art-post-tl"></div>
+                                <div class="art-post-tr"></div>
+                                <div class="art-post-bl"></div>
+                                <div class="art-post-br"></div>
+                                <div class="art-post-tc"></div>
+                                <div class="art-post-bc"></div>
+                                <div class="art-post-cl"></div>
+                                <div class="art-post-cr"></div>
+                                <div class="art-post-cc"></div>
+                                <div class="art-post-body">
+                            <div class="art-post-inner art-article">
+                                            <h2>
+                                                Galerie
+                                            </h2>
+                                            <div class="art-postcontent">
+                                                <!-- article-content -->
+                                              <div id="slider">
+                                                <!-- La banderolle qui contiens toute les images -->
+                                                  <div id="mask">
+                                                    <ul id="image_container">
+                                                      <li><img src="gfx/header.jpg"></li>
+                                                      <li><img src="images/2. Chien de prairie.jpg"></li>
+                                                      <li><img src="images/2. Chat Nitro.jpg"></li>
+                                                      <li><img src="images/PICT0735.jpg"></li>
+                                                    </ul>
+                                                  </div>
+                                                <div id="glass"></div>
+                                                <!-- Les fleches de navigations -->
+                                                <ul id="dots">
+                                                  <!-- les petits points qui affichent ou nous en somme sur le slide -->
+                                                  <li class="button1" onClick="changeImage(1)" ></li>
+                                                  <li class="button2" onClick="changeImage(2)" ></li>
+                                                  <li class="button3" onClick="changeImage(3)" ></li>
+                                                  <li class="button4" onClick="changeImage(4)" ></li>
+                                                </ul>
+                                                <img src="gfx/slider/fleche-gauche.png" id="fleche_gauche" class="fleche" onClick="prevImage()" >
+                                                <img src="gfx/slider/fleche-droite.png" id="fleche_droite" class="fleche" onClick="nextImage()" >
+                                              </div>
+                                              <script>
+                                                // Des variables pour pouvoir modifier facilement ce qui doit l'�tre
+                                                var secDuration = 10;
+                                                var image = 1;
+                                                var maxImages = 4;
+                                                var slider = document.getElementById('slider');
+                                                var timeout;
+                                                // La fonction qui change les images. Peut pointer vers une image spécifique, ou bien être appelée vide, pour passer à celle d'après
+                                                function changeImage(requiredImage) 
+                                                {
+                                                  // D�but de l'algorithme  .
+                                                  if (!requiredImage && requiredImage != 0) // Si nous n'avons pas spécifié une image
+                                                  { 
+                                                    if(image < maxImages) // Si l'image n'est pas la dernière, on avance d'une image
+                                                    {
+                                                      image++;
+                                                    }
+                                                    else
+                                                    {
+                                                      image = 1;// Si Nous sommes sur la dernière, on reviens au début 
+                                                    }
+                                                  }
+                                                  else // Si nous avont sp�cifi� une image
+                                                  { 
+                                                    if(requiredImage > maxImages) // Si nous avont spécifié une image au dela de la dernière, on revient à la première
+                                                    {
+                                                      image = 1;
+                                                    }
+                                                    else if(requiredImage < 1) // Si nous avont spécifié une image 0 ou moins, on vas à la dernière image
+                                                    { 
+                                                      image = maxImages;
+                                                    }
+                                                    else
+                                                    {
+                                                      image = requiredImage; // Sinon, on vas à l'image spécifiée.
+                                                    }
+                                                  }
+                                                  // On dis au slider, à travers sa classe, quel image il doit afficher
+                                                  slider.className = "image"+image;
+                                                  // On nettoie et relance le timeout
+                                                  clearTimeout(timeout)
+                                                  timeout = setTimeout("changeImage()",secDuration*1000);
+                                                }
+                                                // Deux petites fonctions tres compr�hensibles
+                                                function nextImage()
+                                                {
+                                                  changeImage(image+1);
+                                                }
+                                                function prevImage()
+                                                {
+                                                  changeImage(image-1);
+                                                }
+                                                // On met le slide sur l'image par défaut, ici la première
+                                                changeImage(1);
+                                              </script>
+                                                <!-- /article-content -->
+                                            </div>
+                                            <div class="cleared"></div>
+                            </div>
+                            		<div class="cleared"></div>
+                                </div>
+                            </div>
+                             <!--bouton -->
+                        	                        <div id="retour">
+                                                		<span class="art-button-wrapper">
+                                                			<span class="l"> </span>
+                                                			<span class="r"> </span>
+                                                			<a class="art-button" href="#ancre">Haut de page</a>
+                                                		</span>
+                                                	</div>
+                        <!--bouton-->
+                        </div>
+                        <div class="art-layout-cell art-sidebar1">
+                             <div class="art-block">
+                                <div class="art-block-body">
+                                            <div class="art-blockheader">
+                                                <div class="l"></div>
+                                                <div class="r"></div>
+                                                 <div class="t">Horaires</div>
+                                            </div>
+                                            <div class="art-blockcontent">
+                                                <div class="art-blockcontent-tl"></div>
+                                                <div class="art-blockcontent-tr"></div>
+                                                <div class="art-blockcontent-bl"></div>
+                                                <div class="art-blockcontent-br"></div>
+                                                <div class="art-blockcontent-tc"></div>
+                                                <div class="art-blockcontent-bc"></div>
+                                                <div class="art-blockcontent-cl"></div>
+                                                <div class="art-blockcontent-cr"></div>
+                                                <div class="art-blockcontent-cc"></div>
+                                                <div class="art-blockcontent-body">
+                                            <!-- block-content -->
+                                                            <div>
+                                                              <p>
+                                                              <table class="horaires"><tr><td><b>Rendez-vous</b></td><td>Lundi au Samedi de 8h30 à 12h<br />
+                                                              Lundi, Mardi, Mercredi et Vendredi de 14h à 19h</td></tr>
+                                                              <tr><td><b>Consulatation</b></td><td>Lundi, Mardi, Mercredi et Vendredi de 14h à 16h</td></tr>
+                                                              <tr><td><b>Fermeture</b></td><td>Tous les Jeudi après-midi</td></tr></table>
+                                                              </p>
+                                                            </div>
+                                            <!-- /block-content -->
+                                            
+                                            		<div class="cleared"></div>
+                                                </div>
+                                            </div>
+                            		<div class="cleared"></div>
+                                </div>
+                            </div> 
+                            <div class="art-block">
+                                <div class="art-block-body">
+                                            <div class="art-blockheader">
+                                                <div class="l"></div>
+                                                <div class="r"></div>
+                                                 <div class="t">Conseils</div>
+                                            </div>
+                                            <div class="art-blockcontent">
+                                                <div class="art-blockcontent-tl"></div>
+                                                <div class="art-blockcontent-tr"></div>
+                                                <div class="art-blockcontent-bl"></div>
+                                                <div class="art-blockcontent-br"></div>
+                                                <div class="art-blockcontent-tc"></div>
+                                                <div class="art-blockcontent-bc"></div>
+                                                <div class="art-blockcontent-cl"></div>
+                                                <div class="art-blockcontent-cr"></div>
+                                                <div class="art-blockcontent-cc"></div>
+                                                <div class="art-blockcontent-body">
+                                            <!-- block-content -->
+                                                            <div>
+                                                             <p>     
+                                                             Pour votre confort et pour éviter une attente stressante pour votre compagnon, nous vous conseillons de prendre rendez-vous au 03 89 XX XX XX.
+                                                             </p>
+                                                            </div>
+                                            <!-- /block-content -->
+                                            		<div class="cleared"></div>
+                                                </div>
+                                            </div>
+                            		<div class="cleared"></div>
+                                </div>
+                            </div>
+                            <div class="art-block">
+                                <div class="art-block-body">
+                                            <div class="art-blockheader">
+                                                <div class="l"></div>
+                                                <div class="r"></div>
+                                                 <div class="t">Urgence de Colmar et environs</div>
+                                            </div>
+                                            <div class="art-blockcontent">
+                                                <div class="art-blockcontent-tl"></div>
+                                                <div class="art-blockcontent-tr"></div>
+                                                <div class="art-blockcontent-bl"></div>
+                                                <div class="art-blockcontent-br"></div>
+                                                <div class="art-blockcontent-tc"></div>
+                                                <div class="art-blockcontent-bc"></div>
+                                                <div class="art-blockcontent-cl"></div>
+                                                <div class="art-blockcontent-cr"></div>
+                                                <div class="art-blockcontent-cc"></div>
+                                                <div class="art-blockcontent-body">
+                                            <!-- block-content -->
+                                                 <p>
+                                                 En dehors des heures d'ouverture (nuit, week-end, jour fériés), un numéro :<br>
+                                                 le 03 89 XX XX XX.<br>
+                                                 Un répondeur vous indiquera les coordonnées du vétérinaire de garde.
+                                                 </p>
+                                            <!-- /block-content -->
+                                            		<div class="cleared"></div>
+                                                </div>
+                                            </div>
+                            		<div class="cleared"></div>
+                                </div>
+                            </div>                      
+                            <div class="art-block">
+                                <div class="art-block-body">
+                                            <div class="art-blockheader">
+                                                <div class="l"></div>
+                                                <div class="r"></div>
+                                                 <div class="t">Nous trouver</div>
+                                            </div>
+                                            <div class="art-blockcontent">
+                                                <div class="art-blockcontent-tl"></div>
+                                                <div class="art-blockcontent-tr"></div>
+                                                <div class="art-blockcontent-bl"></div>
+                                                <div class="art-blockcontent-br"></div>
+                                                <div class="art-blockcontent-tc"></div>
+                                                <div class="art-blockcontent-bc"></div>
+                                                <div class="art-blockcontent-cl"></div>
+                                                <div class="art-blockcontent-cr"></div>
+                                                <div class="art-blockcontent-cc"></div>
+                                                <div class="art-blockcontent-body">
+                                            <!-- block-content -->
+                                                            <div>
+                                                              <iframe width="235" height="190" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=2+Rue+Jean+Michel+Haussmann,+Colmar&amp;aq=0&amp;oq=colmar,+2+rue+hauss&amp;sll=48.24906,7.537288&amp;sspn=2.022705,5.377808&amp;ie=UTF8&amp;hq=&amp;hnear=2+Rue+Jean+Michel+Haussmann,+68000+Colmar,+Haut-Rhin,+Alsace&amp;t=m&amp;ll=48.108062,7.379422&amp;spn=0.005445,0.010085&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=2+Rue+Jean+Michel+Haussmann,+Colmar&amp;aq=0&amp;oq=colmar,+2+rue+hauss&amp;sll=48.24906,7.537288&amp;sspn=2.022705,5.377808&amp;ie=UTF8&amp;hq=&amp;hnear=2+Rue+Jean+Michel+Haussmann,+68000+Colmar,+Haut-Rhin,+Alsace&amp;t=m&amp;ll=48.108062,7.379422&amp;spn=0.005445,0.010085&amp;z=15&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
+                                                            <div class="info_contact">
+                                                              <div class="parking">
+                                                              <img src="gfx/parking.jpg" class="logo_parking">
+                                                              <div class="description_parking">Un parking de 6 places est disponible<br>dans la cour, devant le cabinet.<br> Un parking de 6 places est disponible<br>dans la cour, devant le cabinet.</div>
+                                                              </div>
+                                                              <p>Face au garage Audi-Volkswagen.<br>
+                                                              Bus ligne 2 (Logelbach-CORA Houssen) : arrêt Haussmann à 50 mètres.</p>
+                                                              <p><b>Cabinet Vétérinaire</b><br>
+                                                              2 Rue Jean Michel Haussmann - <br>
+                                                              Zone Industrielle Nord<br>
+                                                              68000 COLMAR</p>
+                                                              <p>Téléphone : (+33) (0)3 89 XX XX XX<br>
+                                                              Email : cabinet@xxxxxx.com</p>
+                                                              <p>Dr Alain BALESTRERI<br>
+                                                              <span class="fonc">Vétérinaire</span><br>
+                                                              Dr Jérôme HINDENNACH<br>
+                                                              <span class="fonc">Vétérinaire assistant</span></p>
+                                                            </div>
+                                                            </div>
+                                            <!-- /block-content -->    
+                                            		<div class="cleared"></div>
+                                                </div>
+                                            </div>
+                            		<div class="cleared"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cleared"></div><div class="art-footer">
+                    <div class="art-footer-inner">
+                        <div class="art-footer-text">
+                            <p>Tous droits réservés, 2013</p>
+                        </div>
+                    </div>
+                    <div class="art-footer-background"></div>
+                </div>
+        		<div class="cleared"></div>
+            </div>
+        </div>
+        <div class="cleared"></div>
+        <p class="art-page-footer"></p>
+    </div>
+    
+</body>
+</html>
